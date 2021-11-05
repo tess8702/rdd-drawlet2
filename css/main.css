@@ -1,0 +1,140 @@
+/* Main CSS file */
+
+
+body {
+  font-family: "Helvetica Neue", "Helvetica", sans-serif;
+  line-height: 1.5;
+  background-color: #fafafa;
+}
+
+h1 {
+  font:helvetica bold;
+  font-size: 3vw;
+  color: #024453;
+}
+
+h2 {
+  font:helvetica bold;
+  font-size:2.5vw;
+  color: #024453;
+}
+
+h3 {
+  font:helvetica bold;
+  font-size:2vw;
+  color: #024453;
+}
+
+
+p{
+  font-size:2vw;
+  opacity: 0.7;
+}
+
+#nul{
+   font-size:2vw;
+   opacity: 0.7;
+}
+
+
+#done{
+   font-size:2vw;
+   opacity: 0.7;
+}
+
+
+#input_choice{
+   font-size:2vw;
+   opacity: 0.7;
+}
+
+
+.y-title{
+   font-size:2vw;
+   opacity: 0.7;
+}
+.y-axis{
+  font-size:2vw;
+  opacity: 0.7;
+}
+
+
+.x-title{
+   font-size:2vw;
+   opacity: 0.7;
+}
+.x-axis{
+  font-size:2vw;
+  opacity: 0.7;
+}
+
+
+.small-schools{
+  font-size:1.8vw;
+   opacity: 0.7;
+}
+
+.large-schools{
+ font-size:1.8vw;
+   opacity: 0.7; 
+}
+
+
+#start-reminder{
+  font-size:1.5vw;
+  fill:brown;
+}
+
+#input_choice {
+  position: relative;
+  top: 40px;
+  margin-left: 6em;
+}
+
+#input_choice input {
+  margin: 0 5px 2px 0;
+}
+
+#keyboard_controls {
+  position: relative;
+  top: 40px;
+  left: 0%;
+  width: 78%;
+  margin: 0.5em auto 0 auto;
+  display: grid;
+  grid: 2em / 1fr 2fr 2fr 2fr 1fr;
+  justify-items: center;
+}
+
+#keyboard_controls > :first-child{
+  justify-self: start;
+  padding: 3px 1em 0 1em;
+  padding-left: 1em;
+  padding-top: 3px;
+  border: 1px solid #aaa;
+  background-color: #ddd;
+  cursor: not-allowed;
+}
+
+#keyboard_controls > :last-child{
+  justify-self: end;
+}
+
+#keyboard_controls input {
+  width: 4em;
+  border: 1px solid #aaa;
+  padding: 1px 1px 1px 5px;
+}
+
+#bottom_controls{
+  display: flex;
+  justify-content: center;
+}
+
+#bottom_controls input {
+  width: 30%;
+  margin: 4px;
+  font-weight: bold;
+}
+
+/* There's an .visually-hidden class in Bootstrap you can use. */
